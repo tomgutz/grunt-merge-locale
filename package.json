@@ -1,0 +1,41 @@
+{
+  "name": "grunt-merge-locale",
+  "homepage": "https://github.com/tomgutz/grunt-merge-locale.git",
+  "description": "Grunt Task for Merging Multiple JSON Locale Files into one file",
+  "version": "0.9.0",
+  "license": "MIT",
+  "author": {
+    "name": "Tomas Gutierrez",
+    "email": "tomgutzjr@gmail.com",
+    "url": "https://github.com/tomgutz/grunt-merge-locale"
+  },
+  "keywords": [
+    "gruntplugin",
+    "merge",
+    "locale",
+    "languages",
+    "resource bundle",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tomgutz/grunt-merge-locale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomgutz/grunt-merge-locale/issues"
+  },
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-clean": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md"
+}
