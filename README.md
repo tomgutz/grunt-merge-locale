@@ -66,6 +66,7 @@ Assuming we have the following types of source JSON files:
 Assuming we want to generate the following destination JSON file:
 
 - `dest/locale/en/rb.json`:
+
 ```json
 {
     "foo": {
@@ -79,7 +80,7 @@ Assuming we want to generate the following destination JSON file:
 }
 ```
 
-### Single file per target variant
+### Grunt Config
 
 ```js
 grunt.initConfig({
